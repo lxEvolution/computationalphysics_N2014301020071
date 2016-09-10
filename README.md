@@ -1,4 +1,5 @@
 # computationalphysics_N2014301020071
-##姓名：刘轩
-##学号：2014301020071
-##班级：材料班
+##Name：刘轩
+##Student Number：2014301020071
+##Class：材料班
+###-I actually create the repository is to complete a series of homework and final examination.after all.i sincerely pary for learning more conputer technology and better utilizing computer.
