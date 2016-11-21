@@ -53,7 +53,7 @@ class qwer:
                     temp_y.append(self.y[i])
                     temp_x.append(self.x[i])
                     temp_vx.append(self.vx[i])
-            pl.plot(temp_x,temp_vx,'.',label="dtt=%f"%self.dtt)
+            pl.plot(temp_x,temp_vx,'.',label="dt=%f"%self.dtt,color='red')
             pl.legend(loc='center right',frameon=True)
             pl.xlabel("x")
             pl.ylabel("$V_x$")
@@ -62,7 +62,7 @@ class qwer:
             pl.grid(True)
             pl.show()
         def plot2(self):
-            pl.plot(self.x,self.y,label="dtt=%f"%self.dtt)
+            pl.plot(self.x,self.y,label="dt=%f"%self.dtt,color='red')
             pl.legend(loc='upper right',frameon=True)
             pl.title("sadium billiard trajectory $\delta$=%.3f"%self.x0)
             pl.xlabel("x")
