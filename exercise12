@@ -82,7 +82,7 @@ import mpl_toolkits.mplot3d
  #3D plot
  fig = figure(figsize=[8,8])
  ax = fig.add_subplot(111, projection='3d')
- ax.plot_surface(X, Y, V,rstride=1, cstride=1,linewidth=0)
+ ax.plot_surface(X, Y, V,rstride=1, cstride=1,linewidth=0，color='r')
  ax.set_xlabel('X')
  ax.set_ylabel('Y')
  ax.set_zlabel('V')
